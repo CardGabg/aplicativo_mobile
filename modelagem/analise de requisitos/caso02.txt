@@ -1,0 +1,23 @@
+Modelo de classe
+
+Objeto: Advogado
+Atributos: Cadastro ou login, Área(Civil, Criminal, Familiar ou trabalhista), Nome, N° da OAB(OPCIONAL)
+
+Objeto: Livro
+Atributos: Número de registro, Quantidade, Valor, Autor, Editora, Área, nome e estado do livro
+
+Objeto: Busca
+Atributo: LivroNome
+                LivroAutor
+                LivroEditora
+
+Objeto: Secretária
+Atributos: (não pensei em nenhum aqui no caderno)
+
+métodos: Livroemprestado (nome)
+Livroemprestado (Data)
+Livroemprestado (valor pago)
+Livroemprestado (ID do advogado)
+Livroemprestado (n° de Registro)
+Livroemprestado (prazo de entrega)
+Livroemprestado (Verificar estado do livro)

@@ -1,0 +1,49 @@
+Caso 01 : empréstimo de livros 
+Problema : empréstimo e devolução
+
+Atores :
+1. Advogados 
+2. Secretaria 
+
+1- Advogados possuem áreas (cívil, criminal, família) 
+(Os advogados poderam pegar NO MAXIMO 4 LIVROS EMPESTADOS, NUNCA DOIS DE UM MESMO LIVRO. DEVOLUÇÃO EM NO MAXIMO 5 DIAS ) essa e uma das condições impostas no problema 
+
+
+
+Secretaria ( controla o empréstimo e devolução )
+#Responsável por autorizar o emprestimo 
+# visualizar o nome do livro 
+# condição do livro 
+( Se a condição for ruim ela será a responsável por tirar essa unidade da base de dados de empréstimo de livros )
+
+# poderá visualizar o período de empréstimo 
+( Quantos dias faltam para a devolução)
+
+
+
+
+Classes identificadas
+1- livros
+- id 
+- nome 
+- editora 
+- autor
+- area ex: (civil, familia) 
+-data de aquisição 
+- valor pago 
+- quantidade ( quantas unidades do mesmo livro , onde a secretária ao analizar a condição do livro poderá alterar essa quantidade caso o livro não está em condições boas)
+
+
+2 - advogados
+- id
+- nome 
+- área de atuação 
+- número OAB (opcional)
+
+3- secretaria
+-id
+- nome
+- visualizar nome do livro
+- nome funcionário
+- perdido de empréstimo
+- verificar condição do livro ( ela que será a responsável por atualizar o número de unjdsri do livro )
