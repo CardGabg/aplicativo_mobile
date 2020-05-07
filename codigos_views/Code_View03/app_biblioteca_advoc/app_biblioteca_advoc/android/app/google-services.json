@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "204506808043",
+    "firebase_url": "https://biblioteca-advocacia.firebaseio.com",
+    "project_id": "biblioteca-advocacia",
+    "storage_bucket": "biblioteca-advocacia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204506808043:android:f47b297b03c28700a348ae",
+        "android_client_info": {
+          "package_name": "com.appbibliotecaadvoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204506808043-im0903jrmefrodo9scovaffeuto7fds4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3CBwDDX6IxCoWkZIdJ3YoQXzCDVMcJig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204506808043-im0903jrmefrodo9scovaffeuto7fds4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
